@@ -7,17 +7,13 @@ Title: Pokemon Information Portal (Web/App)
 
 Objective: The goal of this project is to create a dynamic and engaging platform for Pokemon enthusiasts. The platform will display information about various Pokemon, their stats, abilities, evolutions, types, and much more. Users will be able to search for specific Pokemon, filter by type or generation, and learn about each Pokemon's characteristics through rich, interactive content.
 
-Target Audience:
-
-Pokemon fans of all ages (Casual gamers, Competitive players, Collectors, etc.)
-People looking to learn more about the different Pokemon, their abilities, and stats.
-Core Features:
 
 Search Functionality: Allow users to search for specific Pokemon by name, type, or generation.
 Pokemon Information: Display stats such as type, abilities, evolution chains, and moves.
 Responsive Design: Ensure the platform works smoothly on both desktop and mobile devices.
 Favorites: Users can add Pokemon to their favorites for quick access.
 Interactive Elements: Integration of animated gifs, videos, or battle simulations for engaging content.
+
 2. Mockup Overview:
 Mockups are a key visual tool that shows how the final interface will look. Below are some mockup components:
 
@@ -75,14 +71,6 @@ Main Content: Flexible grid layout with Pokemon cards or featured sections. It w
 Footer: Static footer with useful links.
 Mobile Layout:
 
-Header: A hamburger menu for compact navigation. The logo should resize accordingly.
-Main Content: Grid or single-column layout for Pokemon cards to keep things simple. Larger touch targets for mobile users.
-Search Bar: The search functionality could be incorporated in the header or as a floating button on mobile.
-Footer: Collapsible footer with important links and social media icons.
-Tablet Layout:
-
-A hybrid between desktop and mobile. You can display the Pokemon information in a two-column format for more screen real estate.
-The menu should adjust to fit the screen width, and images will be optimized to fit smaller devices.
 5. Responsive Design:
 Mobile Responsiveness:
 
