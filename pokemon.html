@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokémon Viewer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container py-4">
+        <header class="text-center mb-4">
+            <h1>Pokémon Viewer</h1>
+        </header>
+
+        <section>
+            <h2 class="text-center">Available Pokémon</h2>
+            <div id="pokemon-list" class="row g-3 justify-content-center">
+                <!-- Pokémon cards will be injected here -->
+            </div>
+            <div class="text-center my-4">
+                <button id="load-more" class="btn btn-primary" aria-label="Load more Pokémon">Load More</button>
+            </div>
+        </section>
+
+        <section>
+            <h2 class="text-center">Caught Pokémon</h2>
+            <div id="caught-pokemon-list" class="row g-3 justify-content-center">
+                <!-- Caught Pokémon cards will be injected here -->
+            </div>
+        </section>
+
+        <div id="loading-spinner" class="d-none text-center my-4">
+            <div class="spinner-border text-primary" role="status" aria-hidden="true"></div>
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

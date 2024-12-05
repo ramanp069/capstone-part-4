@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Astronomy Picture of the Day</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="logo image" alt="Site Logo" class="logo">
+        </div>
+        <nav>
+            <ul class="button-container">
+                <li><a href="index.html" class="nav-button">Home</a></li>
+                <li><a href="about.html" class="nav-button">About Us</a></li>
+                <li><a href="contact.html" class="nav-button">Contact Us</a></li>
+                <li><a href="pokemon.html" class="nav-button">Project 2 - Pokedex</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container my-4">
+        <section>
+
+            <article>
+                <h2>Project  - Pokedex</h2>
+                <p>This project provides a comprehensive database of Pokémon using API data, allowing users to explore detailed Pokémon information.</p>
+            </article>
+        </section>
+
+        <section>
+            <h2>Astronomy Picture of the Day</h2>
+            <form id="dateForm" class="form-inline justify-content-center mb-4">
+                <div class="form-group mx-sm-3 mb-2">
+                    <label for="dateInput" class="sr-only">Date</label>
+                    <input type="date" class="form-control" id="dateInput" required>
+                </div>
+                <button type="submit" class="btn btn-primary mb-2">Get Picture</button>
+            </form>
+
+            <div id="pictureDisplay" class="text-center"></div>
+
+            <h2 class="text-center mt-5">Favourites</h2>
+            <div id="favouritesDisplay" class="row"></div>
+        </section>
+    </main>
+
+    <footer>Project made by Ramanpreet Kaur</footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
